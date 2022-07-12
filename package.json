@@ -1,0 +1,17 @@
+{
+  "name": "scrapimages",
+  "version": "0.0.1",
+  "description": "Scraper of website images",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "author": "Alex Ignacio Kaiser",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "request": "^2.88.2",
+    "util": "^0.12.4"
+  }
+}
